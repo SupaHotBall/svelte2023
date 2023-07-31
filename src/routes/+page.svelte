@@ -1,13 +1,5 @@
 <!-- CSS -->
-<style>
-    :global(body){
-        background-color: lightblue
-    }
-    div{
-        background-color: purple;
-        opacity: 0.3;
-    }
-</style>
+<svelte:head><link rel="stylesheet" href="css/main.css" /></svelte:head>
 
 <!-- HTML __>-->
 <h3>JUJUTSU KAISEN</h3>
