@@ -7,3 +7,8 @@
         <img src="instagram-icon.png" alt="Instagram">
     </a>
 </body>
+
+<!-- svelte-ignore a11y-media-has-caption -->
+<video width="100%" autoplay muted>
+    <source src="Gojo.mp4" type="video/mp4">
+</video>
