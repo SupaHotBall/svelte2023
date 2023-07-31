@@ -7,9 +7,9 @@
 <h3>五条 悟</h3>
 <h1>GOJO SATORU</h1>
 
-<video width="100%" autoplay muted>
-    <source src="Gojo.mp4" type="video/mp4">
-  </video>
-
-
-
+<div class="video-wrapper">
+    <video playsinline autoplay muted loop poster="image/Gojo.mp4">
+      <source src="image/Gojo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>

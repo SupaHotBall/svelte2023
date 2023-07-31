@@ -1,8 +1,26 @@
-
-    body{
-        background-color: purple;
-    }
-    div{
-        background-color: purple;
-        opacity: 0.3;
-    }
+background: url(image/Gojo.mp4);
+background-size: cover;
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .video-wrapper {
+    border: 2px solid #000;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header{
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+  }
