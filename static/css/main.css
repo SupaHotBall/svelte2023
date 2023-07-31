@@ -1,3 +1,7 @@
+backgroud{
+    margin: 0;
+
+}
 video {
     object-fit: cover;
     position: absolute;
@@ -9,13 +13,13 @@ video {
   .video-wrapper {
     border: 2px solid #000;
     width: 100%;
-    height: 900px;
+    height: 940px;
     position: relative;
     overflow: hidden;
-    text-align: center;
+    text-align: top;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: top;
+    justify-content: top;
   }
   .header{
     position: relative;
