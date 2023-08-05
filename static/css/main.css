@@ -9,10 +9,9 @@ body{
 
 .background-image{
   background-image: url("image/Gojowallpaper.jpg");
-  background-size: 100%;
-  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
-  background-size: ;
 }
 
 .header{
