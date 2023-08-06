@@ -14,7 +14,7 @@ body{
   height: 100%;
 }
 
-.header{
+.body-text{
   z-index:2;
   position: absolute;
   text-align: center;
@@ -22,27 +22,59 @@ body{
   text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
 }
 
-.h3.{
+.a.{
   text-decoration: none;
   font-weight: bold;
   color: #000;
 }
 
-h3.with-icon{
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo-icon{
+  font-size: 25px;
+  font-weight: bold;
   display: flex;
 }
 
-h3.with-icon:before{
+.header-right{
+  float: right;
+}
+
+
+.header a.logo-icon:before{
   border-radius:100%;
   content: "";
   display: block;
   background: url("../image/jujutsuIcon.jpg") no-repeat;
   background-size: cover;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
   margin: 0 6px 0 0; 
 }
 
 h1{
   font-size: 50px;
+}
+
+.container{
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }

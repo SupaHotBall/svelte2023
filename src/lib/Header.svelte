@@ -1,6 +1,8 @@
 <div class="header">
-    <h3 class="with-icon">JUJUTSU KAISEN</h3>
-    <br> <br>
-    <h3>五条 悟</h3>
-    <h1>GOJO<br>SATORU</h1>
+    <a class="logo-icon">JUJUTSU KAISEN</a>
+    <div class="header-right">
+        <a href="/">Home</a>
+        <a href="/About">About</a>
+        <a href="/Anything">Anything</a>
+    </div>
 </div>
