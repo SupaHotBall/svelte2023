@@ -1,38 +1,31 @@
 *{
   box-sizing: border-box;
-}
-
-body{
-  
   margin: 0;
+  padding: 0;
 }
 
 .background-image{
   background-image: url("image/Gojowallpaper.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  resize: both;
+  height: 500vw, 500vh;
 }
+
 
 .body-text{
   z-index:2;
+  padding-left: 55px;
   position: absolute;
   text-align: center;
   color: white;
   text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
 }
 
-.a.{
-  text-decoration: none;
-  font-weight: bold;
-  color: #000;
-}
-
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
-  width: 500px;
-  height: 50px;
+  background-color: linear-gradient(blue, pink);
   padding: 20px 10px;
 }
 
@@ -40,11 +33,11 @@ body{
   float: left;
   color: black;
   text-align: center;
-  padding: 12px;
+  padding: 20px;
   text-decoration: none;
   font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+  line-height: 50px;
+  border-radius: 20px;
 }
 
 .header a.logo-icon{
