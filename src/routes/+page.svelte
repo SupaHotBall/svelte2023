@@ -3,6 +3,4 @@
   <h1>GOJO<br />SATORU</h1>
 </div>
 
-<div class="background-image">
-  <img src="image/Gojowallpaper.jpg" alt="Main Page WallPaper" />
-</div>
+<div class="background-image"></div>
