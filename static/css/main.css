@@ -4,18 +4,34 @@
   padding: 0;
 }
 
-.background-image{
+/*HTML main page: */
+.HomePagebase-background{
   background-image: url("../image/Gojowallpaper.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
   position: fixed;
+  height: 100vh;
   width: 100%;
   top: 0;
-  z-index:-1;
+  z-index:-2;
+  opacity: 65%;
 }
 
+.HomePage-background{
+  background-image: url("../image/Gojowallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  height: 50hv;
+  width: 50%;
+  z-index: -1;
+}
+
+h1{
+  font-size: 50px;
+}
 
 .body-text{
   z-index:2;
@@ -27,6 +43,12 @@
   text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
 }
 
+
+
+
+
+
+/*Header and Footer*/
 header, footer{
   padding: 20px 0;
   position: fixed;
@@ -36,13 +58,13 @@ header, footer{
   align-items: center;
 }
 
-header{
-  padding-left: 40px;
-  top: 0;
-}
-
-footer{
-  bottom: 0;
+header a, footer a{
+  color: white;
+  text-align: center;
+  padding: 5px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 header .header-right, footer .footer-right{
@@ -50,34 +72,9 @@ header .header-right, footer .footer-right{
   display: flex;
 }
 
-header .header-right{
-  flex-direction: row;
-}
-
-footer .footer-right{
-  flex-direction: column;
-}
-
-header a, footer a{
-  color: white;
-  text-align: center;
-  padding: 5px 30px;
-  text-decoration: none;
-  font-size: 18px;
-}
-
 header a.logo-icon ,footer a.icon{
   display: flex;
   align-items: center;
-}
-
-
-header a.logo-icon:before{
-  background-image: url("../image/jujutsuIcon.jpg");
-}
-
-h1{
-  font-size: 50px;
 }
 
 footer a.icon:before, header a.logo-icon:before{
@@ -89,6 +86,39 @@ footer a.icon:before, header a.logo-icon:before{
   margin: 0 6px 0 0; 
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/*Header page*/
+header{
+  padding-left: 40px;
+  top: 0;
+}
+
+header .header-right{
+  flex-direction: row;
+}
+
+header a.logo-icon:before{
+  background-image: url("../image/jujutsuIcon.jpg");
+}
+
+
+
+
+
+
+/*Footer page*/
+footer{
+  bottom: 0;
+}
+
+footer .footer-right{
+  flex-direction: column;
 }
 
 footer a.Instagram-icon:before{

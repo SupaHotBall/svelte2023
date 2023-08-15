@@ -1,4 +1,5 @@
 <footer>
+    
     <a class="Instagram-icon icon">Instagram</a>
     <a class="Discord-icon icon">Discord</a>
     <a class="SnapChat-icon icon">SnapChat</a>

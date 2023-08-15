@@ -9,4 +9,5 @@
   <h1>GOJO<br />SATORU</h1>
 </div>
 
-<div class="background-image"></div>
+<div class="HomePagebase-background"></div>
+<div class="HomePage-background"></div>
