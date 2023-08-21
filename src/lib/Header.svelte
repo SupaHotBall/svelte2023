@@ -6,14 +6,10 @@
 
         <a href="/">
             <button class="glow-on-hover" type="button">Home</button>
+        </a>
         
         <div class="dropdown">
-            <button class="glow-on-hover" type="button">Characters</button>
-            <div class="dropdown-content">
-                <a href="/character1">Gojo</a>
-                <a href="/character2">Ryomen</a>
-                <a href="/character3">Toji</a>
-            </div>
+            <button class="glow-on-hover" type="button">Characters</button>            
         </div>
 
         <a href="/info">
@@ -27,3 +23,11 @@
     </div>
 
 </header>
+
+<div class="character-menu">
+    <div class="dropdown-content">
+        <a href="/character1">Gojo</a>
+        <a href="/character2">Ryomen</a>
+        <a href="/character3">Toji</a>
+    </div>
+</div>
