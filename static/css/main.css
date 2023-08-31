@@ -45,7 +45,7 @@ header, footer{
 }
 
 header a, footer a{
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
   font-size: 18px;
@@ -149,7 +149,11 @@ header a.logo-icon:before{
   width: 100vw;
   right: -100%;
   bottom:0;
-  background-color: #111;
+  background-image: url("../image/menu_background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
   z-index:999;
   display:flex;
   justify-content:center;
@@ -205,22 +209,17 @@ input[type=checkbox]:checked ~ .close{
 
 
 /*Footer page*/
-footer{
+footer, footer .footer-right{
   bottom: 0;
-}
-
-footer .footer-right{
   flex-direction: column;
 }
 
-footer a.Instagram-icon:before{
-  background-image: url("../image/Instagram.webp");  
+footer .span-items{
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
-footer a.Discord-icon:before{
-  background-image: url("../image/Discord.png");
-}
-
-footer a.SnapChat-icon:before{
-  background-image: url("../image/SnapChat.png");  
+footer .span-items div.instagram fa-stack fa-2x{
+  padding-left: 100px;
 }
