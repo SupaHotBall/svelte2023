@@ -1,10 +1,10 @@
 <footer>
     <div class="span-items">
 
-        <div class="thing">
+        <div>
             <div class="instagram fa-stack fa-2x">
                 <i class="fa-solid fa-circle fa-stack-2x"></i>
-                <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i></a>
             </div>
             <div>Instagram</div>
         </div>

@@ -221,11 +221,6 @@ footer{
   flex-direction: column;
 }
 
-.thing{
-  justify-content: center;
-  align-items: center;
-}
-
 footer .span-items{
   display: flex;
   align-items:flex-start;
