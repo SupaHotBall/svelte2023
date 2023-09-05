@@ -14,11 +14,9 @@
             <label for="active" class="glow-on-hover">Character</label>
             <label for="active" class="close">X</label>
             <div class="character-menu">
-                <ul>
-                    <li><a href="/character1">Gojo</a></li>
-                    <li><a href="/character2">Royomen</a></li>
-                    <li><a href="/character3">Toji</a></li>
-                </ul>
+                <a href="/character1">Gojo</a>
+                <a href="/character2">Royomen</a>
+                <a href="/character3">Toji</a>
             </div>           
         </div>
 

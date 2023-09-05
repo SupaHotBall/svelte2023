@@ -1,7 +1,7 @@
 <footer>
     <div class="span-items">
 
-        <div>
+        <div class="thing">
             <div class="instagram fa-stack fa-2x">
                 <i class="fa-solid fa-circle fa-stack-2x"></i>
                 <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
