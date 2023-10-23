@@ -6,7 +6,7 @@
                 <i class="fa-solid fa-circle fa-stack-2x"></i>
                 <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
             </div>
-            <div>Instagram</div>
+            <p>Instagram</p>
         </div>
 
         <div class="medias">
@@ -14,15 +14,15 @@
                 <i class="fa-solid fa-circle fa-stack-2x"></i>
                 <i class="fa-brands fa-discord fa-stack-1x fa-inverse"></i>
             </div>
-            <div>Discord</div>
+            <p>Discord</p>
         </div>
 
-        <div >
+        <div class="medias">
             <div class="snapchat fa-stack fa-2x">
                 <i class="fa-solid fa-circle fa-stack-2x"></i>
                 <i class="fa-brands fa-snapchat fa-stack-1x fa-inverse"></i>
             </div>
-            <div>snapchat</div>
+            <p>snapchat</p>
         </div>
 
     </div>

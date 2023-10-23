@@ -1,5 +1,3 @@
-
-
 <div class="Gojo-page-background">
     <div>
         <div class="Gojo-body-image"></div>

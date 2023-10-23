@@ -20,8 +20,8 @@
             <div class="character-menu">
                 <div>
                 <a href="/character1" on:click={e => { checked = !checked; }}>Gojo</a>
-                <a href="/character2" on:click={e => { checked = !checked; }}>Royomen</a>
-                <a href="/character3" on:click={e => { checked = !checked; }}>Toji</a>
+                <a href="/character2" on:click={e => { checked = !checked; }}>Ryomen</a>
+                <a href="/character3" on:click={e => { checked = !checked; }}>Kento</a>
                 </div>
             </div>           
         </div>
