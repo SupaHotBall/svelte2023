@@ -80,16 +80,6 @@
   background-image: url("../image/Kento.jpg");
 }
 
-.Video-container{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 200px;
-  height: 100px;
-}
-
-.Video-container div i{
-}
 
 /*Header and Footer*/
 header, footer{
@@ -291,11 +281,13 @@ footer .medias{
   display: none !important;
 }
 
-.video-container {
+.Video-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: space-around;
   align-items: center;
 }
+
 
 .left-button, .right-button {
   padding: 10px; 
