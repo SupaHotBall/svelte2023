@@ -1,4 +1,4 @@
-<footer>
+<!--<footer>
     <div class="span-items">
 
         <div class="medias">
@@ -27,3 +27,4 @@
 
     </div>
 </footer>
+-->

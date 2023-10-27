@@ -26,6 +26,8 @@
 /*Home page */
 .HomePagebase-background{
   background-image: url("../image/backGround.jpeg");
+  display: flex;
+  justify-content: center;
 }
 
 .body-image, .Gojo-body-image, .Ryomen-body-image, .Kento-body-image{
@@ -50,6 +52,11 @@
   width: 200px;
   height: 100px;
   background-position: top;
+}
+
+.Gojo-gif {
+  width: 10px;
+  height: 30px;
 }
 
 .Gojo-page-background h1, .Ryomen-page-background h1, .Kento-page-background h1{
