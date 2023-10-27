@@ -295,6 +295,11 @@ footer .medias{
   align-items: center;
 }
 
+.video-wrapper{
+  margin: 20px;
+  margin-top: 300px;
+}
+
 
 .left-button, .right-button {
   padding: 10px; 
