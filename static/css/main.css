@@ -58,12 +58,13 @@
   width: 10px;
 }
 
-.Gojo-page-background h1, .Ryomen-page-background h1, .Kento-page-background h1{
+.Name h1{
   color: white;
   display: flex;
   align-items: end;
   font-size: 110px;
   font-family: serif;
+  
 }
 
 /*Gojo Page / Ryomen Page*/
