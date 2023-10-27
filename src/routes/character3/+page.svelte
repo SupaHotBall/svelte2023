@@ -1,6 +1,5 @@
 <div class="Kento-page-background">
-  <div>
-    <div class="Kento-body-image" />
+    <div class="Name">
     <h1>Kento</h1>
     <h1>Nanami</h1>
   </div>
