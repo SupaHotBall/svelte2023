@@ -17,20 +17,13 @@
     <a href="/"><div class="Gojo-body-image" /></a>
 
     <div class="header-right">
-
-         
         
         <div class="characters-tab">
             <input type="checkbox" id="active" {checked} on:change={e => { checked = !checked; }}>
-            <div>
-                <div class = "Gojo-gif">
-                    <img src="../image/Gojo-running-gift.gif" alt="gojo">
-                </div>
-                <label for="active" on:click={hideMedia} class="glow-on-hover">Character</label>
-            </div>    
+            <label for="active" on:click={hideMedia} class="glow-on-hover">Character</label>
             <label for="active" on:click={displayMedia} class="close">X</label>
             <div class="character-menu">
-                <div>  
+                <div>
                 <a href="/character1" on:click={e => { checked = !checked; }}>Gojo</a>
                 <a href="/character2" on:click={e => { checked = !checked; }}>Ryomen</a>
                 <a href="/character3" on:click={e => { checked = !checked; }}>Kento</a>

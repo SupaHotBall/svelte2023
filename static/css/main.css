@@ -56,7 +56,6 @@
 
 .Gojo-gif {
   width: 10px;
-  height: 30px;
 }
 
 .Gojo-page-background h1, .Ryomen-page-background h1, .Kento-page-background h1{
@@ -293,11 +292,6 @@ footer .medias{
   justify-content: center;
   flex-direction: space-around;
   align-items: center;
-}
-
-.video-wrapper{
-  margin: 20px;
-  margin-top: 300px;
 }
 
 
