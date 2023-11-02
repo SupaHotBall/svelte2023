@@ -71,6 +71,7 @@
   font-size: 110px;
   font-family: serif;
   text-align: start; /* Center text horizontally */
+  padding-left: 40px;
 }
 
 /* Center the content on the page */
@@ -96,9 +97,8 @@
 .video-scroll-container {
   overflow: hidden; 
   white-space: nowrap; 
-  transition: transform 0.5s;
+  transition: 20s;
   display: flex;
-  gap: 100px;
 }
 
 .video-wrapper {
@@ -120,15 +120,6 @@ iframe {
 .Gojo-page-background {
   scroll-behavior: smooth; /* Add smooth scrolling behavior */
 }
-
-.right-button {
-  cursor: pointer;
-}
-
-.right-button:hover {
-  transform: translateX(560px); /* Slide to the right by the width of one video */
-}
-
 
 .Gojo-page-background{
   background-image: url("../image/Gojowallpaper.jpg");

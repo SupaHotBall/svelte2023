@@ -31,11 +31,11 @@
             </div>           
         </div>
 
-        <a href="/info">
+        <a href="/Info">
             <button class="glow-on-hover" type="button">Info</button>
         </a>
             
-        <a href="/about">
+        <a href="/About">
             <button class="glow-on-hover" type="button">About</button>
         </a>
 
