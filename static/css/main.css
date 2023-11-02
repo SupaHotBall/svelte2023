@@ -59,6 +59,13 @@
   width: 10px;
 }
 
+.Name {
+  position: fixed;
+  top: 50%; /* Center vertically on the screen */
+  left: 0; /* Position on the left side */
+  transform: translateY(-50%); /* Center text vertically */
+}
+
 .Name h1 {
   color: white;
   font-size: 110px;
