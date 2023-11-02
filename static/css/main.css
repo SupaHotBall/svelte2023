@@ -63,10 +63,7 @@
   color: white;
   font-size: 110px;
   font-family: serif;
-  text-align: center; /* Center text horizontally */
-  display: flex;
-  align-items: center; /* Center text vertically */
-  justify-content: start; /* Align text to the left side */
+  text-align: start; /* Center text horizontally */
 }
 
 /* Center the content on the page */
@@ -179,7 +176,6 @@ footer a.icon:before, header a.logo-icon:before{
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 /*Header page*/
 header{
