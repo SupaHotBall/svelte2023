@@ -9,7 +9,7 @@
 }
 
 /*Home page background / Gojo page backgroud */
-.HomePagebase-background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background{
+.HomePagebase-background, .About-Page-Background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,6 +131,10 @@ iframe {
 
 .Kento-page-background{
   background-image: url("../image/Kento.jpg");
+}
+
+.About-Page-Background{
+  background-image: url({regularImageUrl});
 }
 
 
@@ -332,4 +336,38 @@ footer .medias{
 .hide {
   display: none !important;
 }
+
+
+/* Style for the about page content */
+.about-page {
+  text-align: center;
+  color: #fff; /* Adjust text color to be visible on the background */
+  padding: 20px; /* Add some padding to center content vertically */
+}
+
+/* Style for your h1 and p elements */
+h1 {
+  font-size: 2em;
+}
+
+#container {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+#videoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin: auto;
+}
+
+#player {
+  width: 100%;
+  height: 100%;
+}
+
 
