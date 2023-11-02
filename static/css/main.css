@@ -94,8 +94,10 @@
 }
 
 .video-scroll-container {
-  overflow: hidden; /* Hide the overflowing content */
-  white-space: nowrap; /* Prevent videos from breaking to a new line */
+  overflow: hidden; 
+  white-space: nowrap; 
+  transition: transform 0.5s;
+  display: flex;
 }
 
 .video-wrapper {
