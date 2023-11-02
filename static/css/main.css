@@ -98,14 +98,13 @@
   white-space: nowrap; 
   transition: transform 0.5s;
   display: flex;
+  gap: 100px;
 }
 
 .video-wrapper {
-  display: inline-block; /* Display videos inline */
   width: 450px;
-  height: 215px;
+  height: 315px;
   margin: 0 10px;
-  transition: transform 0.5s; /* Add a smooth transition for scrolling */
 }
 
 .left-button, .right-button {
