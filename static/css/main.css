@@ -353,7 +353,7 @@ h1 {
 #container {
   position: relative;
   width: 60%;
-  height: 60vh;
+  height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,6 +362,8 @@ h1 {
 #player {
   /* Adjust these styles to set the desired size for the video */
   display: {showVideo ? 'block' : 'none'}; /* Toggle visibility */
+  border: 5px solid #fff; /* Add a white border around the video */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the video */
 }
 
 .close-button {
@@ -369,6 +371,10 @@ h1 {
   top: 20px;
   right: 20px;
   cursor: pointer;
+  background-color: #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 

@@ -36,12 +36,13 @@
     showVideo = false;
   }
 
-  // Event listener to close the video when the "Escape" key is pressed
-  window.addEventListener('keydown', (event) => {
+  function handleEscapeKey(event){
     if (event.key === 'Escape' && showVideo) {
-      closeVideo();
+      event.preventDefault();
     }
-  });
+  }
+
+  
 </script>
 
 <div class="HomePagebase-background">
