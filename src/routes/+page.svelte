@@ -42,7 +42,18 @@
     }
   }
 
-  
+  function preventEscapeDefault(event) {
+    if (event.key === 'Escape' && showVideo) {
+      event.preventDefault();
+    }
+  }
+
+  // Add event listeners to the document
+  onMount(() => {
+    document.addEventListener('keydown', handleEscapeKey);
+    document.addEventListener('keydown', preventEscapeDefault);
+  });
+
 </script>
 
 <div class="HomePagebase-background">
