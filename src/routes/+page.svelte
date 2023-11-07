@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
 
   let player;
-  let showVideo = false;
+  let showVideo;
 
   onMount(() => {
     // Load the YouTube iframe API when the component is mounted
@@ -22,6 +22,7 @@
         });
       };
     };
+    showVideo =true;
   });
 
   // Function to start playing the video when it's ready
@@ -47,7 +48,7 @@
       event.preventDefault();
     }
   }
-
+  console.log(showVideo)
   // Add event listeners to the document
   onMount(() => {
     document.addEventListener('keydown', handleEscapeKey);
@@ -61,8 +62,8 @@
 </div>
 
 <div id="container">
-  <div id="player"></div>
   {#if showVideo}
+    <div id="player"></div>
     <div class="close-button" on:click={closeVideo}>Close</div>
   {/if}
 </div>
