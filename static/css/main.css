@@ -107,23 +107,27 @@
 }
 
 .Name > span:nth-child(5){
-  animation-delay: 0.25s;
+  animation-delay: 1s;
 }
 
 .Name > span:nth-child(6){
-  animation-delay: 0.25s;
+  animation-delay: 1.25s;
 }
 
 .Name > span:nth-child(7){
-  animation-delay: 0.25s;
+  animation-delay: 1.50s;
 }
 
 .Name > span:nth-child(8){
-  animation-delay: 0.25s;
+  animation-delay: 1.75s;
 }
 
 .Name > span:nth-child(9){
-  animation-delay: 0.25s;
+  animation-delay: 2s;
+}
+
+.Name > span:nth-child(10){
+  animation-delay: 2.25s;
 }
 
 
