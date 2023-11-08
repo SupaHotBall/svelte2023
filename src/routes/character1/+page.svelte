@@ -33,7 +33,7 @@
 
 <div class="Gojo-page-background">
   <div class="Name">
-    <h1>Gojo</h1>
+    <h1 class = "Name-animation">Gojo</h1>
     <h1>Satoru</h1>
   </div>
 
