@@ -82,6 +82,7 @@
 .Name-animation {
   font-size: 110px;
   font-family: sans-serif;
+  text-transform: uppercase;
 }
 
 /* Center the content on the page */
