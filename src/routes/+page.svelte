@@ -28,5 +28,5 @@
         allowfullscreen
       />
     </div>
-    <div class="close-button" on:click={closeVideo}>Close</div>
+    <div class="close-button glow-on-hover" on:click={closeVideo}>Close</div>
   </div>
