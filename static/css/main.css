@@ -79,12 +79,8 @@
   height: 30%;
 }
 
-.Name h1 {
-  color: white;
-  font-size: 110px;
-  font-family: serif;
-  text-align: start; 
-  padding-left: 40px;
+.Name-animation {
+  
 }
 
 /* Center the content on the page */
