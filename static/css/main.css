@@ -85,8 +85,7 @@
   text-transform: uppercase;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
-  background-repeat: no-repeat;
+  animation: animate 3s linear infinite;
 }
 
 /* Center the content on the page */
