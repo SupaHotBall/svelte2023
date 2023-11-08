@@ -38,8 +38,8 @@
   </div>
 
   <div class="Video-container">
-    <button on:click={scrollLeft} class="left-button">
-      <i class="fa-solid fa-circle-arrow-left fa-2xl left-button"></i>
+    <button  class="left-button">
+      <i class="fa-solid fa-circle-arrow-left fa-2xl left-button" on:click={scrollLeft}></i>
     </button>
 
     <div class="video-scroll-container">
