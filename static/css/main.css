@@ -90,6 +90,15 @@
   -webkit-text-fill-color: rgba(255,255,255,.1);
 }
 
+@ketframes animate {
+  0%{
+    background-position: -500%;
+  }
+  100%{
+    background-position: 500%;
+  }
+}
+
 /* Center the content on the page */
 .Gojo-page-background {
   display: flex;
