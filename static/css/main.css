@@ -383,7 +383,7 @@ h1 {
 }
 
 #player > iframe {
-  
+  border-radius: 60px;
 }
 
 .close-button {
