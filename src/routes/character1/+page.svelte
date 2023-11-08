@@ -33,8 +33,17 @@
 
 <div class="Gojo-page-background">
   <div class="Name">
-    <h1 class = "Name-animation">Gojo</h1>
-    <h1 class = "Name-animation">Satoru</h1>
+    <span>G</span>
+    <span>O</span>
+    <span>J</span>
+    <span>O</span>
+    <br>
+    <span>S</span>
+    <span>A</span>
+    <span>T</span>
+    <span>O</span>
+    <span>R</span>
+    <span>U</span>
   </div>
 
   <div class="Video-container">

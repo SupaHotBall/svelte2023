@@ -74,30 +74,19 @@
   position: fixed;
   top: 50%; 
   left: 6%; 
-  transform: translateY(-50%);
+  font-family: 'Baloo Thambi', cursive;
   width: 40%;
   height: 30%;
 }
 
-.Name-animation {
-  font-size: 110px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  position: relative;
-  overflow: hidden;
-  animation: animate 3s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255,255,255,.1);
+.Name > span {
+  animation: glow 2s ease-in-out infinite;
 }
 
-@ketframes animate {
-  0%{
-    background-position: -500%;
-  }
-  100%{
-    background-position: 500%;
-  }
+@keyframes glow{
+
 }
+
 
 /* Center the content on the page */
 .Gojo-page-background {
