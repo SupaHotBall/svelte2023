@@ -76,6 +76,8 @@
   left: 0; 
   transform: translateY(-50%);
   border-style: dotted;
+  width: 40%;
+  height: 30%;
 }
 
 .Name h1 {
@@ -116,7 +118,7 @@
 
 .video-wrapper {
   width: 450px;
-  height: 315px;
+  height: 200px;
   margin: 0 60px;
 }
 

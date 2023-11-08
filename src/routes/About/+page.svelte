@@ -2,7 +2,7 @@
   let regularImageUrl = "";
 
   // Define the query parameters for the Unsplash API request
-  const query = "anime"; // You can adjust the query as needed
+  const query = "anime";
   const clientId = "U3Yj9H-A7xjn37lRamx6_TA0X0hBrpmVhWEHASXf7yc"; // Replace with your actual API key
 
   // Construct the API request URL
