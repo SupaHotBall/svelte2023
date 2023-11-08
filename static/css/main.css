@@ -72,26 +72,27 @@
 
 .Name {
   position: fixed;
-  top: 50%; /* Center vertically on the screen */
-  left: 0; /* Position on the left side */
-  transform: translateY(-50%); /* Center text vertically */
+  top: 50%; 
+  left: 0; 
+  transform: translateY(-50%);
+  border-style: dotted;
 }
 
 .Name h1 {
   color: white;
   font-size: 110px;
   font-family: serif;
-  text-align: start; /* Center text horizontally */
+  text-align: start; 
   padding-left: 40px;
 }
 
 /* Center the content on the page */
 .Gojo-page-background {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  justify-content: space-between; /* Vertically distribute elements */
-  align-items: center; /* Center content horizontally */
-  height: 100vh; /* Make sure the container takes the full height of the viewport */
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: center; 
+  height: 100vh; 
 }
 
 .Video-container {
@@ -102,7 +103,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 10px 0; /* Add some margin between the h1 and videos */
+  margin: 10px 0; 
   width: 100%;
 }
 
@@ -129,7 +130,7 @@
 
 iframe {
   width: 100%;
-  height: 100%; /* Ensure the iframe takes up the entire space in the video-wrapper */
+  height: 100%; 
 }
 
 /* Adjust for horizontal scrolling */
@@ -357,11 +358,10 @@ footer .medias{
 /* Style for the about page content */
 .about-page {
   text-align: center;
-  color: #fff; /* Adjust text color to be visible on the background */
-  padding: 20px; /* Add some padding to center content vertically */
+  color: #fff; 
+  padding: 20px; 
 }
 
-/* Style for your h1 and p elements */
 h1 {
   font-size: 2em;
 }
