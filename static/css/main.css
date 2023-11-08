@@ -84,6 +84,7 @@
   font-family: sans-serif;
   text-transform: uppercase;
   position: relative;
+  overflow: hidden;
 }
 
 /* Center the content on the page */
