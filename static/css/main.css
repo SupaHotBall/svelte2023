@@ -83,6 +83,7 @@
   font-size: 110px;
   font-family: sans-serif;
   text-transform: uppercase;
+  position: relative;
 }
 
 /* Center the content on the page */
