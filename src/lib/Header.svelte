@@ -11,10 +11,6 @@
         display.classList.remove("hide");
     }
 
-    function hiddenCharacter(){
-       const charactorPage = document.querySelector('characters-tab');
-       charactorPage.classList.add('hidden')
-    } 
 </script>
 
 <header>
