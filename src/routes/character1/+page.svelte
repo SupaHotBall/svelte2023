@@ -60,9 +60,7 @@
       {/each}
     </div>
 
-    <button on:click={scrollRight} class="right-button">
-      <i class="fa-solid fa-circle-arrow-right fa-2xl"></i>
-    </button>
+      <i class="fa-solid fa-circle-arrow-right fa-2xl right-button" on:click={scrollRight}></i>
   </div>
 </div>
 
