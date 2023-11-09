@@ -35,7 +35,7 @@
         </div>
 
         <div class="slide">
-            <img src="../image/Fifth-Silder.jpg" alt="" />
+            <img src="../image/Last-Silder.jpg" alt="" />
         </div>
 
         <div class="navigation-auto">
