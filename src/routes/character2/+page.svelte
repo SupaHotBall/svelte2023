@@ -35,8 +35,18 @@
 
 <div class="Ryomen-page-background">
   <div class="Name">
-    <h1>Ryomen</h1>
-    <h1>Sukuna</h1>
+    <span>R</span>
+    <span>Y</span>
+    <span>O</span>
+    <span>M</span>
+    <span>E</span>
+    <span>N</span>
+    <span>S</span>
+    <span>U</span>
+    <span>K</span>
+    <span>U</span>
+    <span>N</span>
+    <span>A</span>
   </div>
 
   <div class="Video-container">
