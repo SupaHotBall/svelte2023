@@ -45,7 +45,7 @@ For future implement of the website:
 - Header
 ![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/9fd1f2b5-8e2b-4841-b8a3-1ecba58cb642)
 - Main Page
-![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/6aa33e28-dbe5-4821-97f5-c697794cf93d)
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/bd040ab7-3070-435b-b786-ed20c002df4e)
 - Select Character Page
 ![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/56734684-4bc3-4e6c-8786-bc3ccd6bf1ff)
 - Gojo Character Page
