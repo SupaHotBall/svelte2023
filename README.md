@@ -23,7 +23,7 @@ Second link:
 ```
 [git clone https://github.com/SupaHotBall/svelte2023.git](https://dribbble.com/shots/19973668-Jujutsu-Kaisen-Anime-Landing-Page)](https://jujutsukaisen.jp/)
 ```
-![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/d7585a6a-d157-4db1-8fca-c64936fdb4e0)
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/53f09d01-ebe0-4a75-8b75-57b7d9b9d8a8)
 - In this site i used his main page fade in vieo as my layout, coz i really want this kind of animation especially for anime website, definitelty need this kind of animation to make the websit emore interseting.
 
 
