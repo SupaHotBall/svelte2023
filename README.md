@@ -13,6 +13,10 @@ Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My webs
 - CSS - Describes how HTML elements are to be displayed on screen, paper, or in other media
 - JAVASCRIPT - Programming language that allows you to implement complex features on web pages
 - - - -
+# Development Tools
+- Node.js - The runtime environment used to run Javascript on the server.
+- GIT - The version control system used for source code management.
+- VISUAL STUDIO CODE - The cource code eitor used for development.
 # Screenshots an Layout Design
 First link:
 ```
