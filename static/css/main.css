@@ -76,9 +76,8 @@
   bottom: 35%;
 }
 
-.Name > .gojoAnimationText {
+.Name > p {
   position: absolute;
-  margin-left: 150px;
   padding-bottom: 100px;
   font-size: 3rem;
   color: white;
@@ -88,10 +87,16 @@
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -1200px 0;
+  width: 1200px;
+}
+
+.gojoAnimationText { 
+  padding-left: 600px;
   animation: backcolor1 5s linear infinite alternate;
 }
 
-.Name > .ryomenAnimationText {
+ .ryomenAnimationText {
+  padding-left: 600px;
   animation: backcolor2 5s linear infinite alternate;
 }
 
