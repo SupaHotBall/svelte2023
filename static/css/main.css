@@ -510,7 +510,7 @@ h1 {
 .InfoPage-Background{
   background-image: url("../image/Info-background.jpg");
   justify-content: center;
-  height: auto;
+  height: 500px;
 }
 
 
