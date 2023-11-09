@@ -19,11 +19,11 @@
         </div>
 
         <div class = "slide">
-            <img src="../image/first-slide.jpeg" alt="">
+            <img src="../image/Fouth-Silder.jpeg" alt="">
         </div>
 
         <div class = "slide">
-            <img src="../image/first-slide.jpeg" alt="">
+            <img src="../image/Fifth-Silder.jpg" alt="">
         </div>
 
     </div>
