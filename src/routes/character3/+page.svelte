@@ -49,8 +49,28 @@
   </div>
 
   <div class="Video-container">
-    <button class="left-button">
-        <i class="fa-solid fa-circle-arrow-left fa-xl"></i>
-    </button>
+    
+    <i class="fa-solid fa-circle-arrow-left fa-2xl left-button" on:click={scrollLeft}></i>
+
+  <div class="video-scroll-container">
+    {#each [1, 2, 3, 4] as video, i}
+      {#if i >= videoIndex && i < videoIndex + 3}
+        <div class="video-wrapper">
+          <iframe
+            width="560"
+            height="315"
+            src={getVideoUrl(i)}
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      {/if}
+    {/each}
   </div>
+
+    <i class="fa-solid fa-circle-arrow-right fa-2xl right-button" on:click={scrollRight}></i>
 </div>
+</div>
+
