@@ -71,7 +71,7 @@
 }
 
 .Name {
-  position: fixed; 
+  position: fixed;
   bottom: 30%;
   font-family: 'Baloo Thambi', cursive;
   font-size: 5rem;
@@ -83,10 +83,42 @@
   animation: glow 2s ease-in-out infinite;
 }
 
-@keyframes glow{
-  0%, 100%{
+@keyframes glow {
+  0%, 100% {
     color: white;
     text-shadow: 0 0 12px blue, 0 0 50px blue, 0 0 100px blue;
+  }
+  10%, 90% {
+    color: black;
+    text-shadow: none;
+  }
+}
+
+/* Specific styles for the Gojo page (blue glow) */
+.Gojo-page-background .Name > span {
+  animation-name: glow-blue;
+}
+
+@keyframes glow-blue {
+  0%, 100% {
+    color: white;
+    text-shadow: 0 0 12px blue, 0 0 50px blue, 0 0 100px blue;
+  }
+  10%, 90% {
+    color: black;
+    text-shadow: none;
+  }
+}
+
+/* Specific styles for the Ryomen page (red glow) */
+.Ryomen-page-background .Name > span {
+  animation-name: glow-red;
+}
+
+@keyframes glow-red {
+  0%, 100% {
+    color: white;
+    text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
   }
   10%, 90% {
     color: black;
