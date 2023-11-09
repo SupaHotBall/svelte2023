@@ -33,9 +33,9 @@ npm run dev
 # Future Features
 For future implement of the website:
 - Better quality of the video
-- Design a webpage for adopting cats, enabling users to choose the cat they wish to adopt.
+- Design a webpage for my bset animation of jujutsu kaisen, enabling users to have a look of the amazing animation of this cool anime.
 - Add more animation to the webpage.
-- Create an additional webpage linked to the "Learn More" button, where users can find information about the cat adoption center.
+- Create an additional webpage with fetching API with real life place that the anime alwasy used for the fighting area also make it more cooler to attract more interest from other people.
 - - - -
 # Unknown Bug
 - Whenever the webpage's dimensions fall below 500 pixels, there is an issue with the background color in the header breaking.
