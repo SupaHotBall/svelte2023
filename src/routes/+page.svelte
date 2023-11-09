@@ -1,4 +1,5 @@
 <script>
+
   // Function to close the video
   function closeVideo() {
     const background = document.querySelector(".blur");
@@ -7,6 +8,8 @@
     const videoContainer = document.querySelector("#container");
     videoContainer.classList.add("hidden");
   }
+
+
 </script>
 
 <div class="HomePagebase-background blur">

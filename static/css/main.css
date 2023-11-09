@@ -80,6 +80,11 @@
   bottom: 35%;
 }
 
+.Name > p {
+  font-size: 3rem;
+  color: white;
+}
+
 .Name > span {
   animation: glow 2s ease-in-out infinite;
 }

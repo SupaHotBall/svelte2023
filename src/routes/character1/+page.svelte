@@ -33,6 +33,7 @@
 
 <div class="Gojo-page-background">
   <div class="Name">
+    <p>ゴチョサトル</p>
     <span>G</span>
     <span>O</span>
     <span>J</span>
