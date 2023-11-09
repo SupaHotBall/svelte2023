@@ -525,8 +525,8 @@ h1 {
 }
 
 .slider {
-  width: 800px;
-  height: 500px;
+  width: 100vw;
+  height: 100vh;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -570,3 +570,41 @@ h1 {
   background: red;
 }
 
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto > div {
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto > div:not(:last-child){
+  margin-right: 40px;
+}

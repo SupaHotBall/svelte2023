@@ -4,7 +4,7 @@
         <input type="radio" name="radio-btn" id="radio2" />
         <input type="radio" name="radio-btn" id="radio3" />
         <input type="radio" name="radio-btn" id="radio4" />
-        <input type="radio" name="radio-btn" id="radio4" />
+        <input type="radio" name="radio-btn" id="radio5" />
 
         <div class="slide first">
             <img src="../image/first-slide.jpeg" alt="" />
