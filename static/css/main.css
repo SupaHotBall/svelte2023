@@ -169,6 +169,10 @@
   transition: transform 0.7s ease;
 }
 
+.video-wrapper:hover {
+  
+}
+
 .video-wrapper > iframe {
   border-radius: 20px;
 }
