@@ -9,7 +9,7 @@
 }
 
 /*Home page background / Gojo page backgroud */
-.HomePagebase-background, .About-Page-Background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background{
+.HomePagebase-background, .About-Page-Background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background, .Black-ground{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -551,6 +551,7 @@ h1 {
 .navigation-manual {
   position: absolute;
   width: 100%;
+  margin-top: 460px;
   display: flex;
   justify-content: center;
 }
@@ -592,8 +593,9 @@ h1 {
 }
 
 .navigation-auto{
-  position: absolute;
-  width: 100%;
+  position: flex;
+  width: 800px;
+  margin-top: 460px;
   display: flex;
   justify-content: center;
 }
