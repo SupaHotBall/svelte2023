@@ -61,7 +61,7 @@
           <div class="video-wrapper">
             <iframe
               width="560"
-              height="315"
+              height="450"
               src={getVideoUrl(i)}
               title="YouTube video player"
               frameborder="0"

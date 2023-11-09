@@ -136,11 +136,11 @@
 
 @keyframes glow-red {
   0%, 100% {
-    color: white;
+    color: red;
     text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
   }
   10%, 90% {
-    color: black;
+    color: white;
     text-shadow: none;
   }
 }
@@ -224,6 +224,9 @@
   white-space: nowrap; 
   transition: 20s;
   display: flex;
+  padding-bottom: 60px;
+  height: 700px;
+  align-items: flex-end;
 }
 
 .video-wrapper {
@@ -245,6 +248,7 @@
 
 .left-button, .right-button {
   margin: 0 10px;
+  padding-top: 370px;
 }
 
 iframe {
