@@ -93,7 +93,8 @@
 
 @keyframes backcolor {
   100%{
-    background-position: 0 0;
+    color: white;
+    text-shadow: 0 0 12px blue, 0 0 50px blue, 0 0 100px blue;
   }
 }
 
