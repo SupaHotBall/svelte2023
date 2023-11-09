@@ -9,7 +9,7 @@
 }
 
 /*Home page background / Gojo page backgroud */
-.HomePagebase-background, .InfoPage-Background, .About-Page-Background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background{
+.HomePagebase-background, .About-Page-Background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,7 +63,8 @@
 .Gojo-body-image, .Ryomen-body-image, .Kento-body-image{
   background-image: url("../image/Character-page.png");
   width: 200px;
-  height: 100px;
+  height: 80px;
+  align-items: center;
 }
 
 .Gojo-gif {
@@ -258,11 +259,11 @@ iframe {
 /*Header and Footer*/
 header, footer{
   padding: 20px var(--general-padding);
-  position: fixed;
   display: flex;
   left: 0;
   width: 100%;
   align-items: center;
+  height: 120px;
 }
 
 header a, footer a{
