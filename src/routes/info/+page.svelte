@@ -1,5 +1,1 @@
-<head>
-    <title>
-        IDK Page
-    </title>
-</head>
+<div class="InfoPage-Background"></div>

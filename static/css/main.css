@@ -9,7 +9,7 @@
 }
 
 /*Home page background / Gojo page backgroud */
-.HomePagebase-background, .About-Page-Background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background{
+.HomePagebase-background, .InfoPage-Background, .About-Page-Background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -505,6 +505,12 @@ h1 {
   padding: 5px 10px;
   border-radius: 5px;
   font-weight: bold;
+}
+
+.InfoPage-Background{
+  background-image: url("../image/Info-background.jpg");
+  justify-content: center;
+  height: auto;
 }
 
 
