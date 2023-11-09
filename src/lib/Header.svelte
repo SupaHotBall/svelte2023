@@ -32,7 +32,7 @@
             </div>           
         </div>
 
-        <a href="/info">
+        <a href="/Slides">
             <button class="glow-on-hover" type="button">Photo Slider</button>
         </a>
             
