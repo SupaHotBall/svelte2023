@@ -112,7 +112,6 @@
   }
 }
 
-
 .Ryomen-page-background .Name > span {
   animation-name: glow-red;
 }
@@ -577,7 +576,7 @@ h1 {
 
 .navigation-manual {
   position: absolute;
-  width: 1700px;
+  width: 1800px;
   margin-top: -40px;
   display: flex;
   justify-content: center;
@@ -593,7 +592,7 @@ h1 {
 
 .navigation-auto{
   position: absolute;
-  width: 1700px;
+  width: 1800px;
   margin-top: 799px;
   display: flex;
   justify-content: center;
