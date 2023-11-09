@@ -3,8 +3,7 @@
 
   function scrollRight() {
     videoIndex++;
-    if (videoIndex >= 2) {
-      // Adjust this based on the number of videos
+    if (videoIndex >= 2) { // Adjust this based on the number of videos
       videoIndex = 2;
     }
   }
@@ -21,7 +20,7 @@
       "https://www.youtube.com/embed/SQc2jhbGT2k?si=1DGQq0olblMVibZ3",
       "https://www.youtube.com/embed/fueqERLu-Fk?si=Apns2jVo_RotE1GL&start=4",
       "https://www.youtube.com/embed/ia6sRyT6ArE?si=fWr3a2GfZIYFC6nb&start=4",
-      "https://www.youtube.com/embed/pzIbP2AUXy8?si=SyqzzAsuVhhSISg2&start=4",
+      "https://www.youtube.com/embed/pzIbP2AUXy8?si=SyqzzAsuVhhSISg2&start=4"
     ];
 
     if (index >= 0 && index < videoUrls.length) {
@@ -34,26 +33,22 @@
 
 <div class="Gojo-page-background">
   <div class="Name">
-    <div class="blue">
-      <span>G</span>
-      <span>O</span>
-      <span>J</span>
-      <span>O</span>
-      <br />
-      <span>S</span>
-      <span>A</span>
-      <span>T</span>
-      <span>O</span>
-      <span>R</span>
-      <span>U</span>
-    </div>
+    <span>G</span>
+    <span>O</span>
+    <span>J</span>
+    <span>O</span>
+    <br>
+    <span>S</span>
+    <span>A</span>
+    <span>T</span>
+    <span>O</span>
+    <span>R</span>
+    <span>U</span>
   </div>
 
   <div class="Video-container">
-    <i
-      class="fa-solid fa-circle-arrow-left fa-2xl left-button"
-      on:click={scrollLeft}
-    />
+    
+      <i class="fa-solid fa-circle-arrow-left fa-2xl left-button" on:click={scrollLeft}></i>
 
     <div class="video-scroll-container">
       {#each [1, 2, 3, 4] as video, i}
@@ -67,15 +62,17 @@
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            />
+            ></iframe>
           </div>
         {/if}
       {/each}
     </div>
 
-    <i
-      class="fa-solid fa-circle-arrow-right fa-2xl right-button"
-      on:click={scrollRight}
-    />
+      <i class="fa-solid fa-circle-arrow-right fa-2xl right-button" on:click={scrollRight}></i>
   </div>
 </div>
+
+
+
+
+
