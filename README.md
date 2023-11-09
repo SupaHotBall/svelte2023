@@ -45,16 +45,23 @@ For future implement of the website:
 - Header
 ![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/9fd1f2b5-8e2b-4841-b8a3-1ecba58cb642)
 <img width="1512" alt="Screenshot 2023-11-09 at 13 39 48" src="https://github.com/Krittapas2004/svelte23/assets/131924704/f4daf7ca-1ec1-4eb4-a502-d5cacc267033">
-- Footer
-<img width="1512" alt="Screenshot 2023-11-09 at 13 40 09" src="https://github.com/Krittapas2004/svelte23/assets/131924704/7581859f-903a-4210-b2f7-538ee12ad87b">
 - Main Page
-<img width="1512" alt="Screenshot 2023-11-09 at 13 37 21" src="https://github.com/Krittapas2004/svelte23/assets/131924704/cc6f0b56-c0f9-402a-9e88-5219eb2b22f0">
-<img width="1472" alt="Screenshot 2023-11-09 at 13 37 59" src="https://github.com/Krittapas2004/svelte23/assets/131924704/a969e8fc-e726-42fc-a4e2-588cff900cfb">
-- Our Cat Page
-<img width="1512" alt="Screenshot 2023-11-09 at 13 40 38" src="https://github.com/Krittapas2004/svelte23/assets/131924704/3e74224c-4ad7-403b-a510-ff7cd36c804f">
-- Store Page
-<img width="1510" alt="Screenshot 2023-11-09 at 13 40 58" src="https://github.com/Krittapas2004/svelte23/assets/131924704/40f3645f-9f65-486d-9b4b-3c509d5beef1">
-- Login Page
-<img width="1512" alt="Screenshot 2023-11-09 at 13 42 00" src="https://github.com/Krittapas2004/svelte23/assets/131924704/803f3986-6b64-4483-929a-1cebcaac002d">
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/6aa33e28-dbe5-4821-97f5-c697794cf93d)
+- Select Character Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/56734684-4bc3-4e6c-8786-bc3ccd6bf1ff)
+- Gojo Character Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/a33f3a4f-43d9-486e-a9d6-1fc5dd83c5f1)
+- Ryomen Character Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/f07eeb90-1380-4a82-a4e5-d507f3cb8cb2)
+- Kento Character Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/6e164fc4-64f0-4a0e-82a6-be6c43ce780f)
+- Photo Slider Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/ff9ee28c-8a84-44c8-955d-5ac8e9319bdd)
+- Fetching API Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/6b79c557-0c00-4338-a60a-5c9db07c286f)
+
+
+
+
  
  
