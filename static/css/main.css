@@ -170,7 +170,7 @@
 }
 
 .video-wrapper:hover {
-  
+  transform: scale(1.1);
 }
 
 .video-wrapper > iframe {
