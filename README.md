@@ -43,7 +43,7 @@ For future implement of the website:
 - - - -
 # My Website
 - Header
-<img width="1511" alt="Screenshot 2023-11-09 at 13 39 36" src="https://github.com/Krittapas2004/svelte23/assets/131924704/3ef6e5f6-64b8-432c-a0cb-32933538547b">
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/9fd1f2b5-8e2b-4841-b8a3-1ecba58cb642)
 <img width="1512" alt="Screenshot 2023-11-09 at 13 39 48" src="https://github.com/Krittapas2004/svelte23/assets/131924704/f4daf7ca-1ec1-4eb4-a502-d5cacc267033">
 - Footer
 <img width="1512" alt="Screenshot 2023-11-09 at 13 40 09" src="https://github.com/Krittapas2004/svelte23/assets/131924704/7581859f-903a-4210-b2f7-538ee12ad87b">
