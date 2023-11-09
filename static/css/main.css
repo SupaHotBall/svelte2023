@@ -9,7 +9,7 @@
 }
 
 /*Home page background / Gojo page backgroud */
-.HomePagebase-background, .About-Page-Background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background, .Black-ground{
+.HomePagebase-background, .fetch-background, .Gojo-page-background, .Ryomen-page-background, .Kento-page-background, .Black-ground{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -263,7 +263,6 @@
   width: 450px;
   height: 200px;
   margin: 0 60px;
-  overflow: hidden;
   position: relative;
   transition: transform 0.7s ease;
 }
@@ -272,23 +271,15 @@
   transform: scale(1.1);
 }
 
-.video-wrapper > iframe {
-  border-radius: 20px;
-}
-
 .left-button, .right-button {
   margin: 0 10px;
   padding-top: 370px;
 }
 
 iframe {
+  border-radius: 20px;
   width: 100%;
   height: 100%; 
-}
-
-/* Adjust for horizontal scrolling */
-.Gojo-page-background {
-  scroll-behavior: smooth; /* Add smooth scrolling behavior */
 }
 
 .Gojo-page-background{
@@ -337,12 +328,12 @@ header .header-right{
   color: white;
 }
 
-header a.logo-icon ,footer a.icon{
+header a.logo-icon{
   display: flex;
   align-items: center;
 }
 
-footer a.icon:before, header a.logo-icon:before{
+header a.logo-icon:before{
   border-radius:100%;
   content: "";
   display: block;
@@ -494,24 +485,6 @@ input[type=checkbox]:checked ~ .close{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-/*Footer page*/
-footer{
-  bottom: 0;
-  flex-direction: row;
-}
-
-footer .span-items{
-  display: flex;
-  align-items:center;
-  justify-content: center;
-  flex-direction: row;
-}
-
-footer .medias{
-  text-align: center;
-}
 
 .hide {
   display: none !important;

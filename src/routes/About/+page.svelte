@@ -38,6 +38,8 @@
   <h1>About Page</h1>
   <!-- Display the regular-sized image -->
   <div class="About-Page-Background">
-    <img src={regularImageUrl} alt="Anime Background" />
+    <div class="fetch-background">
+      <img src={regularImageUrl} alt="Anime Background" />
+    </div>
   </div>
 </div>
