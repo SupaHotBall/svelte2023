@@ -1,4 +1,4 @@
-![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/eda2fba1-5224-424a-b170-5632ddae10cc)# OverView Of Website
+# OverView Of Website
 Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My website is all about the jujutsu kaisen, with lots of pictures and videos to look at. 
 - - - -
 # Technology Used
