@@ -17,7 +17,6 @@
     
     <a href="/"><div class="Gojo-body-image" /></a>
     
-
     <div class="header-right">
         
         <div class="characters-tab">
