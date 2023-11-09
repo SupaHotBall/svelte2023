@@ -35,7 +35,7 @@
 
 <div class="Gojo-page-background">
   <div class="Name">
-    <p class="bounceTxt">ゴチョサトル</p>
+    <p class="gojoAnimationText">ゴチョサトル</p>
     <span>G</span>
     <span>O</span>
     <span>J</span>

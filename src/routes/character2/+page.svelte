@@ -35,6 +35,7 @@
 
 <div class="Ryomen-page-background">
   <div class="Name">
+    <p class="ryomenAnimationText">レオメンスクーナ</p>
     <span>R</span>
     <span>Y</span>
     <span>O</span>

@@ -76,7 +76,7 @@
   bottom: 35%;
 }
 
-.Name > p {
+.Name > .gojoAnimationText {
   position: absolute;
   margin-left: 150px;
   padding-bottom: 100px;
@@ -88,13 +88,24 @@
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-position: -1200px 0;
-  animation: backcolor 5s linear infinite alternate;
+  animation: backcolor1 5s linear infinite alternate;
 }
 
-@keyframes backcolor {
+.Name > .ryomenAnimationText {
+  animation: backcolor2 5s linear infinite alternate;
+}
+
+@keyframes backcolor1 {
   100%{
     color: white;
     text-shadow: 0 0 12px blue, 0 0 50px blue, 0 0 100px blue;
+  }
+}
+
+@keyframes backcolor2 {
+  100%{
+    color: white;
+    text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
   }
 }
 
@@ -136,11 +147,11 @@
 
 @keyframes glow-red {
   0%, 100% {
-    color: red;
+    color: white;
     text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
   }
   10%, 90% {
-    color: white;
+    color: black;
     text-shadow: none;
   }
 }
