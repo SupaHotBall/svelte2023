@@ -16,6 +16,11 @@ Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My webs
 ```
 [git clone https://github.com/SupaHotBall/svelte2023.git](https://dribbble.com/shots/19973668-Jujutsu-Kaisen-Anime-Landing-Page)
 ```
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/383d0879-7077-4280-b29d-19cf203e05b1)
+- I mostly used the whole page of the website as my character pages, like the character name, video clips and color. Because i found out this is really cool so i decide to use this as my layout.
+
+- 
+
 # Installation
 Clone a repo:
 ```
