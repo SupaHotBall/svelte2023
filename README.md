@@ -9,7 +9,9 @@ Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My webs
 # Technology Used
 - Svelte - Svelte is a modern JavaScript framework that compiles components into highly efficient, framework-less JavaScript code during the build process, offering a fast and lightweight approach to building web applications.
 - Unsplash - A website that offers an API for retrieving data.
-- Node.js - Use to to install dependencies for a project
+- HTML - Elements tell the browser how to display the content
+- CSS - Describes how HTML elements are to be displayed on screen, paper, or in other media
+- JAVASCRIPT - Programming language that allows you to implement complex features on web pages
 - - - -
 # Screenshots an Layout Design
 First link:
