@@ -547,10 +547,26 @@ h1 {
 }
 
 .navigation-manual {
-
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
 }
 
 .manual-btn {
-  border: 2px solid #40D3DC;
+  border: 2px solid red;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: red;
 }
 
