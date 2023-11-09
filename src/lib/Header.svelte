@@ -26,15 +26,15 @@
             <label for="active" on:click={displayMedia} class="close">X</label>
             <div class="character-menu">
                 <div>
-                <a href="/character1" on:click={e => { checked = !checked; }}>Gojo</a>
-                <a href="/character2" on:click={e => { checked = !checked; }}>Ryomen</a>
-                <a href="/character3" on:click={e => { checked = !checked; }}>Kento</a>
+                <a href="/character1" on:click={e => { checked = !checked; }} class = "first-character">Gojo</a>
+                <a href="/character2" on:click={e => { checked = !checked; }} class = "second-character">Ryomen</a>
+                <a href="/character3" on:click={e => { checked = !checked; }} class = "third-character">Kento</a>
                 </div>
             </div>           
         </div>
 
-        <a href="/Info">
-            <button class="glow-on-hover" type="button">Info</button>
+        <a href="/info">
+            <button class="glow-on-hover" type="button">Photo Slider</button>
         </a>
             
         <a href="/About">

@@ -95,7 +95,7 @@
   animation: backcolor1 5s linear infinite alternate;
 }
 
- .ryomenAnimationText {
+.ryomenAnimationText {
   animation: backcolor2 5s linear infinite alternate;
 }
 
@@ -142,6 +142,10 @@
 
 
 .Gojo-page-background .Name > span {
+  animation-name: glow-blue;
+}
+
+.first-character{
   animation-name: glow-blue;
 }
 
@@ -625,7 +629,7 @@ h1 {
 .navigation-manual {
   position: absolute;
   width: 1800px;
-  margin-top: -40px;
+  margin-top: -60px;
   display: flex;
   justify-content: center;
 }
@@ -641,7 +645,7 @@ h1 {
 .navigation-auto{
   position: absolute;
   width: 1800px;
-  margin-top: 799px;
+  margin-top: 903px;
   display: flex;
   justify-content: center;
 }
