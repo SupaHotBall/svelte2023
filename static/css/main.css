@@ -619,3 +619,7 @@ h1 {
   background: cyan;
 }
 
+.Black-ground {
+  padding: 0; /* Set padding to 0 */
+}
+
