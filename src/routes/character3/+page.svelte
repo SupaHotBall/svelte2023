@@ -34,7 +34,7 @@
 
 <div class="Kento-page-background">
   <div class="Name">
-    <div class="kentoAnimationText" />
+    <p class="kentoAnimationText">七海 建人</p>
     <span>K</span>
     <span>E</span>
     <span>N</span>

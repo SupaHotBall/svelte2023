@@ -88,19 +88,20 @@
   -webkit-background-clip: text;
   background-position: -1200px 0;
   width: 1200px;
+  padding-left: 600px;
 }
 
 .gojoAnimationText { 
-  padding-left: 600px;
   animation: backcolor1 5s linear infinite alternate;
 }
 
  .ryomenAnimationText {
-  padding-left: 600px;
   animation: backcolor2 5s linear infinite alternate;
 }
 
-
+.kentoAnimationText {
+  animation: backcolor3 5s linear infinite alternate;
+}
 
 @keyframes backcolor1 {
   100%{
@@ -113,6 +114,13 @@
   100%{
     color: white;
     text-shadow: 0 0 12px red, 0 0 50px red, 0 0 100px red;
+  }
+}
+
+@keyframes backcolor3 {
+  100%{
+    color: white;
+    text-shadow: 0 0 12px yellow, 0 0 50px yellow, 0 0 100px yellow;
   }
 }
 
