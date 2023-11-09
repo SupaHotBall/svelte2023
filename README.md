@@ -44,7 +44,6 @@ For future implement of the website:
 # My Website
 - Header
 ![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/9fd1f2b5-8e2b-4841-b8a3-1ecba58cb642)
-<img width="1512" alt="Screenshot 2023-11-09 at 13 39 48" src="https://github.com/Krittapas2004/svelte23/assets/131924704/f4daf7ca-1ec1-4eb4-a502-d5cacc267033">
 - Main Page
 ![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/6aa33e28-dbe5-4821-97f5-c697794cf93d)
 - Select Character Page
