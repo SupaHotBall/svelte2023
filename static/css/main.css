@@ -164,6 +164,7 @@
   width: 450px;
   height: 200px;
   margin: 0 60px;
+  overflow: hidden;
 }
 
 .video-wrapper > iframe {
