@@ -1,38 +1,72 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+# OverView Of Website
+Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My website is all about the jujutsu kaisen, with lots of pictures and videos to look at. 
+- First of all, you enter to the main page then you will see a intro of the JuJutsu Kaisen video from youtube and the back ground are blur, onc eyou click on the close button on the top right of the video, then everything will be clear to see.
+- Second, hover to the character button that have a hover effect with diff color on it, onc eyou click on it then a huge eye will fade out to your screen, also will isplay 3 of the characters i like the most in this anime, which are Gojo, Ryomen an Kento. Also when u hover your mouse on the character name it will have transition effect which is pretty cool i think.
+- Thrid, click either one of the character then you will see some cool animation effect on the left side of the screen, those are Gojo name with English and Japanese. below his name there have some clip videos of Gojo only, also you can click the right button to slide to the right to see more videos of himself. Also if you want to see others character feel free to click on the character button on the top right corner.
+- Fourth, click on the photo slider, then u will see some cool images which are displaying in the center of the screen and in the bottom there have some button with auto slide and manual slide to the left and right. There are total 5 cool image on that page.
+- Last, the fetching API page, Im doing my best to solve the problem of the width and height of the fetching image. But AT LEAST i got it fetching right :D
+- - - -
+# Technology Used
+- Svelte - Svelte is a modern JavaScript framework that compiles components into highly efficient, framework-less JavaScript code during the build process, offering a fast and lightweight approach to building web applications.
+- Unsplash - A website that offers an API for retrieving data.
+- Node.js - Use to to install dependencies for a project
+- - - -
+# Installation
+Clone a repo:
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+git clone https://github.com/SupaHotBall/svelte2023.git
+```
+- - - -
+Change the directory:
+- You can skip this step if you're in this directory.
+```
+cd svelte2023
+```
+- - - -
+Open a file in Visual Studio Code
+- - - -
+Install dependencies:
+```
+- npm i
+```
+- - - -
+Run the webpage:
+```
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
+- - - -
+# Future Features
+For future implement of the website:
+- Better quality of the video not just youtube
+- Design a webpage for my bset animation of jujutsu kaisen, enabling users to have a look of the amazing animation of this cool anime.
+- Add more animation to the webpage.
+- Create an additional webpage with fetching API with real life place that the anime alwasy used for the fighting area also make it more cooler to attract more interest from other people.
+- Use more Js code, althoguth there are quite a lot for me in this website and i still think not enough, could have to more and more.
+- - - -
+# Unknown Bug
+- Whenever the webpage's load multie times the main youtube video just doesn't autoplay at all.
+- The fetching image just doesn't changed the size in the css. even if i tried different class of it in diff area still.
+- - - -
+# My Website
+- Header
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/9fd1f2b5-8e2b-4841-b8a3-1ecba58cb642)
+- Main Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/bd040ab7-3070-435b-b786-ed20c002df4e)
+- Select Character Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/56734684-4bc3-4e6c-8786-bc3ccd6bf1ff)
+- Gojo Character Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/a33f3a4f-43d9-486e-a9d6-1fc5dd83c5f1)
+- Ryomen Character Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/f07eeb90-1380-4a82-a4e5-d507f3cb8cb2)
+- Kento Character Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/6e164fc4-64f0-4a0e-82a6-be6c43ce780f)
+- Photo Slider Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/ff9ee28c-8a84-44c8-955d-5ac8e9319bdd)
+- Fetching API Page
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/6b79c557-0c00-4338-a60a-5c9db07c286f)
 
-## Building
 
-To create a production version of your app:
 
-```bash
-npm run build
-```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+ 
+ 
