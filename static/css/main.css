@@ -85,6 +85,17 @@
   animation: glow 2s ease-in-out infinite;
 }
 
+span {
+  opacity: 0;
+  transition: all 1s ease;
+  transform: translate(50px);
+}
+
+span.fade {
+  opacity: 1;
+  transform: translate(0px);
+}
+
 @keyframes glow {
   0%, 100% {
     color: white;
