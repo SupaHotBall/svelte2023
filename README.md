@@ -1,4 +1,4 @@
-# OverView Of Website
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/eda2fba1-5224-424a-b170-5632ddae10cc)# OverView Of Website
 Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My website is all about the jujutsu kaisen, with lots of pictures and videos to look at. 
 - - - -
 # Technology Used
@@ -38,8 +38,8 @@ For future implement of the website:
 - Create an additional webpage with fetching API with real life place that the anime alwasy used for the fighting area also make it more cooler to attract more interest from other people.
 - - - -
 # Unknown Bug
-- Whenever the webpage's dimensions fall below 500 pixels, there is an issue with the background color in the header breaking.
-- The right arrow in the store page it doesn't go all the way to the end of the screen.
+- Whenever the webpage's load multie times the main youtube video just doesn't autoplay at all.
+- The fetching image just doesn't changed the size in the css. even if i tried different class of it in diff area still.
 - - - -
 # My Website
 - Header
