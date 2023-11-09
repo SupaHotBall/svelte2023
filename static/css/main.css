@@ -38,7 +38,7 @@
 .hidden {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s 2s, opacity 2s linear;
+  transition: visibility 0s 1s, opacity 1s linear;
 }
 
 .body-image, .Gojo-body-image, .Ryomen-body-image, .Kento-body-image{
