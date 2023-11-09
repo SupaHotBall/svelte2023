@@ -9,7 +9,7 @@ Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My webs
 # Installation
 Clone a repo:
 ```
-git clone https://github.com/Krittapas2004/svelte23.git
+git clone https://github.com/SupaHotBall/svelte2023.git
 ```
 - - - -
 Change the directory:
