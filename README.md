@@ -12,17 +12,20 @@ Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My webs
 - Node.js - Use to to install dependencies for a project
 - - - -
 # Screenshots an Layout Design
-- First link:
+First link:
 ```
 [git clone https://github.com/SupaHotBall/svelte2023.git](https://dribbble.com/shots/19973668-Jujutsu-Kaisen-Anime-Landing-Page)
 ```
-![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/383d0879-7077-4280-b29d-19cf203e05b1)
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/024fde23-7acf-4e30-9ebb-1619c7c8ba22)
 - I mostly used the whole page of the website as my character pages, like the character name, video clips and color. Because i found out this is really cool so i decide to use this as my layout.
 - - - -
-- Second link:
+Second link:
 ```
 [git clone https://github.com/SupaHotBall/svelte2023.git](https://dribbble.com/shots/19973668-Jujutsu-Kaisen-Anime-Landing-Page)](https://jujutsukaisen.jp/)
 ```
+![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/d7585a6a-d157-4db1-8fca-c64936fdb4e0)
+- In this site i used his main page fade in vieo as my layout, coz i really want this kind of animation especially for anime website, definitelty need this kind of animation to make the websit emore interseting.
+
 
 # Installation
 Clone a repo:
