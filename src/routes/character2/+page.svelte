@@ -18,9 +18,9 @@
   function getVideoUrl(index) {
     const videoUrls = [
       "https://www.youtube.com/embed/SWRUnpHU7yw?si=iDvFC-NWi_sP7IHr",
-      "https://www.youtube.com/embed/fueqERLu-Fk?si=Apns2jVo_RotE1GL&start=4",
-      "https://www.youtube.com/embed/ia6sRyT6ArE?si=fWr3a2GfZIYFC6nb&start=4",
-      "https://www.youtube.com/embed/pzIbP2AUXy8?si=SyqzzAsuVhhSISg2&start=4"
+      "https://www.youtube.com/embed/MohkTXPEsc8?si=TNERoCYUgteP-3NC",
+      "https://www.youtube.com/embed/R1cfvvj1vr0?si=c3PoFV6BvyiNkxfW",
+      "https://www.youtube.com/embed/uCkrWgvovY8?si=9cEwjnxDxnitdFKQ"
     ];
 
     if (index >= 0 && index < videoUrls.length) {
