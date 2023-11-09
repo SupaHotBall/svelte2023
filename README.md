@@ -11,6 +11,11 @@ Welcome to my JuJutsu Kaisen website, the perfect place for anime lover! My webs
 - Unsplash - A website that offers an API for retrieving data.
 - Node.js - Use to to install dependencies for a project
 - - - -
+# Screenshots an Layout Design
+- First link:
+```
+[git clone https://github.com/SupaHotBall/svelte2023.git](https://dribbble.com/shots/19973668-Jujutsu-Kaisen-Anime-Landing-Page)
+```
 # Installation
 Clone a repo:
 ```
