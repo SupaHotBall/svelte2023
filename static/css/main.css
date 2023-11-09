@@ -548,22 +548,6 @@ h1 {
   transition: 2s;
 }
 
-.navigation-manual {
-  position: absolute;
-  width: 100%;
-  margin-top: 460px;
-  display: flex;
-  justify-content: center;
-}
-
-.manual-btn {
-  border: 2px solid red;
-  padding: 5px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-}
-
 .manual-btn:not(:last-child){
   margin-right: 40px;
 }
@@ -592,22 +576,38 @@ h1 {
   margin-left: -80%;
 }
 
-.navigation-auto{
-  position: flex;
-  width: 800px;
-  margin-top: 460px;
+.navigation-manual {
+  position: absolute;
+  width: 1700px;
+  margin-top: -40px;
   display: flex;
   justify-content: center;
 }
 
-.navigation-auto > div {
+.manual-btn {
   border: 2px solid red;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navigation-auto{
+  position: absolute;
+  width: 1700px;
+  margin-top: 799px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-auto div {
+  border: 2px solid cyan;
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
 }
 
-.navigation-auto > div:not(:last-child){
+.navigation-auto div:not(:last-child){
   margin-right: 40px;
 }
 
@@ -616,6 +616,6 @@ h1 {
 #radio3:checked ~ .navigation-auto .auto-btn3, 
 #radio4:checked ~ .navigation-auto .auto-btn4, 
 #radio5:checked ~ .navigation-auto .auto-btn5{
-  background: red;
+  background: cyan;
 }
 

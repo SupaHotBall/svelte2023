@@ -1,13 +1,27 @@
 <script>
-    var counter = 1;
-    setInterval(function () {
-        document.getElementById("radio" + counter).checked = true;
-        counter++;
-        if (counter > 5) {
-            counter + 1;
+    import { onMount } from 'svelte';
+  
+    let counter = 1;
+  
+    onMount(() => {
+      const intervalId = setInterval(() => {
+        const radio = document.getElementById('radio' + counter);
+        if (radio) {
+          radio.checked = true;
+          counter++;
+          if (counter > 5) {
+            counter = 1; // Reset counter if it exceeds 5
+          }
+        } else {
+          clearInterval(intervalId); // Stop the interval if no more radios are found
         }
-    }, 5000);
-</script>
+      }, 5000);
+  
+      // Cleanup the interval when the component is unmounted
+      return () => clearInterval(intervalId);
+    });
+  </script>
+
 
 <div class="Black-ground">
     <div class="slider">
