@@ -300,7 +300,7 @@ iframe {
 
 
 /*Header and Footer*/
-header, footer{
+header{
   padding: 20px var(--general-padding);
   display: flex;
   left: 0;
@@ -309,16 +309,12 @@ header, footer{
   height: 120px;
 }
 
-header a, footer a{
+header a{
   color: black;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-}
-
-footer a{
-  color: white;
 }
 
 header .header-right{
