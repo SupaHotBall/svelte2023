@@ -554,8 +554,7 @@ h1 {
 
 .navigation-manual {
   position: absolute;
-  width: 800px;
-  margin-top: -40px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -613,4 +612,24 @@ h1 {
 
 .navigation-auto > div:not(:last-child){
   margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: red;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: red;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: red;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: red;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+  background: red;
 }

@@ -1,3 +1,15 @@
+<script>
+    var counter = 1;
+    setInterval(function() {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 5){
+            counter + 1;
+        }
+    }, 5000);
+</script>
+
+
 <div class="slider">
     <div class="slides">
         <input type="radio" name="radio-btn" id="radio1" />
@@ -43,6 +55,5 @@
         <label for = "radio4" class = "manual-btn"></label>
         <label for = "radio5" class = "manual-btn"></label>
     </div>
-
 
 </div>
