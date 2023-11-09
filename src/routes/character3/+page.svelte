@@ -33,8 +33,6 @@
 
 <div class="Kento-page-background">
     <div class="Name">
-    <h1>Kento</h1>
-    <h1>Nanami</h1>
     <span>K</span>
     <span>E</span>
     <span>N</span>

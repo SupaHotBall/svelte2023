@@ -94,7 +94,7 @@
   }
 }
 
-/* Specific styles for the Gojo page (blue glow) */
+
 .Gojo-page-background .Name > span {
   animation-name: glow-blue;
 }
@@ -110,7 +110,7 @@
   }
 }
 
-/* Specific styles for the Ryomen page (red glow) */
+
 .Ryomen-page-background .Name > span {
   animation-name: glow-red;
 }
@@ -124,6 +124,10 @@
     color: black;
     text-shadow: none;
   }
+}
+
+.Kento-page-background .Name > span {
+  animation-name: glow-yellow;
 }
 
 .Name > span:nth-child(2){
