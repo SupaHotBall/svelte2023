@@ -1,22 +1,18 @@
 <script>
     $:checked = false;
-
     const hideMedia = () => {
         const hide = document.querySelector(".span-items");
         hide.classList.add("hide");
     }
-
     const displayMedia = () =>{
         const display = document.querySelector(".span-items");
         display.classList.remove("hide");
     }
-
 </script>
 
 <header>
     
     <a href="/"><div class="Gojo-body-image" /></a>
-    
     <div class="header-right">
         
         <!-- Character tab with a checkbox to toggle visibility -->

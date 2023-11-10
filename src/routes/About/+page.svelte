@@ -24,8 +24,10 @@
     })
     .then((data) => {
       if (data && data.results && data.results.length > 0) {
+        // Update regularImageUrl with the URL of the first result's regular-sized image
         regularImageUrl = data.results[0].urls.regular;
       } else {
+        // Log an error if no results are found in the API response
         console.error("No results found in the API response.");
       }
     })
