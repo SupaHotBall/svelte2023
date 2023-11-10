@@ -2,6 +2,7 @@
 
   let videoIndex = 0;
 
+  // Function to scroll to the next set of videos to the right
   function scrollRight() {
     videoIndex++;
     if (videoIndex >= 2) {
@@ -25,10 +26,13 @@
       "https://www.youtube.com/embed/pzIbP2AUXy8?si=SyqzzAsuVhhSISg2&start=4",
     ];
 
+    // Check if the provided index is within the valid range
     if (index >= 0 && index < videoUrls.length) {
+      // Return the YouTube video URL for the specified index
       return videoUrls[index];
     } else {
-      return ""; // Return an empty URL for invalid indices
+      // Return an empty URL for invalid indices
+      return "";
     }
   }
 </script>
@@ -56,8 +60,10 @@
     />
 
     <div class="video-scroll-container">
+      <!-- Loop through video indices to display the current set of videos -->
       {#each [1, 2, 3, 4] as video, i}
         {#if i >= videoIndex && i < videoIndex + 3}
+        <!-- Wrapper for each video with an embedded YouTube iframe -->
           <div class="video-wrapper">
             <iframe
               width="560"
