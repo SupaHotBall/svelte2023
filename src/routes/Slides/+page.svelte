@@ -10,10 +10,12 @@
           radio.checked = true;
           counter++;
           if (counter > 5) {
-            counter = 1; // Reset counter if it exceeds 5
+            // Reset counter if it exceeds 5
+            counter = 1; 
           }
         } else {
-          clearInterval(intervalId); // Stop the interval if no more radios are found
+          // Stop the interval if no more radios are found
+          clearInterval(intervalId); 
         }
       }, 5000);
   
