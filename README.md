@@ -31,8 +31,13 @@ Second link:
 ```
 ![image](https://github.com/SupaHotBall/svelte2023/assets/131924656/53f09d01-ebe0-4a75-8b75-57b7d9b9d8a8)
 - In this site i used his main page fade in vieo as my layout, coz i really want this kind of animation especially for anime website, definitelty need this kind of animation to make the websit emore interseting.
-
-
+- - - -
+Third link:
+```
+https://www.youtube.com/watch?v=0wvrlOyGlq0
+```
+- I used this link as my sildes show page, becuase i found it pretty cool with the auto and manual slides show so i desgined to follow it step by step detily.
+- - - -
 # Installation
 Clone a repo:
 ```
