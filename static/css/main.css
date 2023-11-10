@@ -597,7 +597,7 @@ h1 {
 
 .navigation-manual {
   position: absolute;
-  width: 1800px;
+  width: 2000px;
   margin-top: -60px;
   display: flex;
   justify-content: center;
@@ -613,7 +613,7 @@ h1 {
 
 .navigation-auto{
   position: absolute;
-  width: 1800px;
+  width: 2000px;
   margin-top: 903px;
   display: flex;
   justify-content: center;
