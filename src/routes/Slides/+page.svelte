@@ -3,14 +3,16 @@
   
     let counter = 1;
   
+    // Function executed on component mount
     onMount(() => {
       const intervalId = setInterval(() => {
         const radio = document.getElementById('radio' + counter);
+        // Check if the radio button exists
         if (radio) {
           radio.checked = true;
           counter++;
+          // Reset counter to 1 if it exceeds 5
           if (counter > 5) {
-            // Reset counter if it exceeds 5
             counter = 1; 
           }
         } else {
