@@ -2,9 +2,9 @@
 
   // Function to close the video
   function closeVideo() {
+    // Get the background element with class 'blur' when the video show
     const background = document.querySelector(".blur");
     background.classList.remove("blur");
-    // showVideo = false;
     const videoContainer = document.querySelector("#container");
     videoContainer.classList.add("hidden");
   }
